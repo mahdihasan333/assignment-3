@@ -23,7 +23,9 @@
         extend: {
           colors: {
             clifford: '#da373d',
-            primary: 'rgb(171, 239, 95)'
+            primary: 'rgb(171, 239, 95)',
+            textBlack : 'rgb(33, 33, 33)',
+            buttonColor : 'rgba(171, 239, 95, 0.5);'
           },
           fontFamily: {
             Manrope: 'Manrope'
@@ -37,44 +39,20 @@
   <!-- Header section  -->
   <header class="container mx-auto">
     <!-- Nav Section -->
-    <nav class="mt-2">
-      <div class="navbar">
-        <div class="navbar-start space-x-2">
-          <div class="bg-primary rounded-full px-2 py-1">
-            <i class="fa-solid fa-arrow-right -rotate-45"></i>
-          </div>
-          <a class="text-4xl font-bold"></i>Rinterio</a>
-        </div>
-        <div class="navbar-center hidden lg:flex">  
-          <ul class="menu menu-horizontal px-1">
-            <li><a class="text-base font-bold">Home</a></li>
-            <li><a>Secvices</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs </a></li>
-            <li><a>Contact Us </a></li>
-          </ul>
-        </div>
-        <div class="navbar-end">
-          <a class="btn bg-primary rounded-3xl">Book Consult<i class="fa-solid fa-arrow-right -rotate-45 text-white bg-black rounded-full px-2 py-2"></i></a>
-          
-        </div>
-        <div class="dropdown lg:-[d-none]">
-          <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" />
-            </svg>
-          </div>
-          <ul tabindex="0" class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
-            <li><a>Home</a></li>
-            <li><a>Secvices</a></li>
-            <li><a>Portfolio</a></li>
-            <li><a>Blogs </a></li>
-            <li><a>Contact Us </a></li>
-          </ul>
+
+    <!-- Hero Section -->
+    <div class="hero bg-base-200 min-h-screen">
+      <div class="hero-content text-center">
+        <div class="flex flex-col items-center justify-center">
+          <img src="./assets/banner.png" alt="">
+          <h2 class="text-4xl font-extrabold lg:w-3/4 text-textBlack">A barn house of this design has a striking appearance</h2>
+          <p class="py-6 lg:w-3/5">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.
+          </p>
+          <button class="btn border-2 border-solid border-primary px-28 md:px-5 bg-buttonColor text-lg font-bold rounded-full">View Details<i class="fa-solid fa-arrow-right -rotate-45 p-2 bg-primary rounded-full"></i></button>
         </div>
       </div>
-    </nav>
+    </div>
   </header>
 </body>
 
