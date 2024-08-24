@@ -65,8 +65,10 @@
             <i class="fa-solid fa-magnifying-glass p-1 md:p-2 bg-white rounded-full"></i>
             <i class="fa-solid fa-cart-shopping p-1 md:p-2 bg-white rounded-full"></i>
           </div>
-          <div>
-            <a class="btn text-center pt-4 px-5 bg-primary none md:block rounded-full font-extrabold">Book Consult</a>
+          <div class="hidden md:block lg:block">
+            <button class="btn px-2 bg-primary text-lg font-bold rounded-full">How we works<i
+                class="fa-solid fa-arrow-right -rotate-45 text-white p-2 bg-black rounded-full"></i></button>
+
           </div>
 
           <div class="dropdown">
@@ -110,7 +112,7 @@
   <main>
     <!-- About Section -->
     <section class="bg-[#f4f4f4]">
-      <img class="pl-20 pt-5 hidden lg:block" src="./assets/Vector.png" alt="">
+      <img class="pl-14 pt-5 hidden lg:block" src="./assets/Vector.png" alt="">
       <div class="container mx-auto hero">
 
         <div class="hero-content">
@@ -120,7 +122,7 @@
                 <button class="btn px-2 bg-white text-lg font-bold rounded-full"><i
                     class="fa-solid fa-arrow-right rounded-full"></i>How we works</i></button>
               </div>
-              <h2 class="text-5xl font-extrabold">We disign thoughtful, <br> liveable spaces</h2>
+              <h2 class="lg:text-5xl font-extrabold">We disign thoughtful, <br> liveable spaces</h2>
               <p class="">The barn house captivates with its blend of rustic charm and modern sophistication, featuring
                 weathered wood, sleek metal accents.
               </p>
@@ -153,25 +155,24 @@
 
     <section class="bg-[#f4f4f4]">
       <div class="container mx-auto px-6 lg:px-0 py-10">
-        <div
-          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-between bg-white rounded-2xl">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 justify-between bg-white rounded-2xl">
           <div class="space-y-3 p-6 flex flex-col justify-center items-center">
             <img class="w-1/4" src="./assets/image/card1.png" alt="">
             <h2 class="text-4xl font-extrabold text-[#494949]">235+</h2>
             <p class="font-semibold text-base text-[#737373]">Happy Client Review</p>
           </div>
           <div class="space-y-3 p-6 flex flex-col justify-center items-center">
-            <img class="w-1/4" src="./assets/image/card1.png" alt="">
+            <img class="w-1/4" src="./assets/image/card2.png" alt="">
             <h2 class="text-4xl font-extrabold text-[#494949]">50+</h2>
             <p class="font-semibold text-base text-[#737373]">Work Departments</p>
           </div>
           <div class="space-y-3 p-6 flex flex-col justify-center items-center">
-            <img class="w-1/4" src="./assets/image/card1.png" alt="">
+            <img class="w-1/4" src="./assets/image/card3.png" alt="">
             <h2 class="text-4xl font-extrabold text-[#494949]">30k+</h2>
             <p class="font-semibold text-base text-[#737373]">Our Happy Client</p>
           </div>
           <div class="space-y-3 p-6 flex flex-col justify-center items-center">
-            <img class="w-1/4" src="./assets/image/card1.png" alt="">
+            <img class="w-1/4" src="./assets/image/card4.png" alt="">
             <h2 class="text-4xl font-extrabold text-[#494949]">307+</h2>
             <p class="font-semibold text-base text-[#737373]">Staff Members</p>
           </div>
@@ -182,7 +183,7 @@
 
 
     <!-- Works Section  -->
-    <section class="mb-12">
+    <section class="pb-9 bg-[#f4f4f4]">
       <div class="flex justify-center">
         <button
           class="btn text-center border-2 border-solid border-primary px-2 bg-buttonColor text-lg font-bold rounded-full"><i
@@ -228,10 +229,79 @@
 
     <!-- Portfolio Section -->
 
+    <section class="bg-white pb-12 lg:pb-28">
+      <div class="container mx-auto p-4 lg:p-0">
+        <div class="flex justify-center pt-5">
+          <button
+            class="btn text-center border-2 border-solid border-primary px-2 bg-buttonColor text-lg font-bold rounded-full"><i
+              class="fa-solid fa-arrow-right p-1 md:p-2 bg-primary rounded-full"></i>Explore our Latest
+            works</i></button>
+        </div>
+        <div class="py-8 text-center flex flex-col items-center">
+          <h3 class="text-2xl md:text-3xl lg:text-5xl font-bold mb-3">Our Latest Portfolio</h3>
+          <p class="text-lg w-3/4 font-medium">The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal accents.</p>
+        </div>
+        <!-- card container -->
+        <div class="lg:flex gap-5 mb-5 lg:mb-12 space-y-7">
+          <div class=" card shadow-xl w-full lg:w-3/4 p-5">
+            <div class="flex flex-col lg:flex-row gap-5 ">
+              <img src="./assets/img1.png" alt="">
+              <div class="flex flex-col justify-center space-y-3">
+                <h2 class="text-[#494949] text-2xl font-extrabold">Commercial</h2>
+                <p class="text-[#737373] text-base font-semibold">The barn house captivates with its blend of rustic
+                  charm
+                  and modern. The arn house captivates with blend of rustic charm and modern.</p>
+                <button class="text-lg font-bold text-left">Read More <i
+                    class="fa-solid fa-arrow-right -rotate-45 p-2 bg-primary rounded-full"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="card shadow-xl w-full lg:w-1/4 p-5">
+            <div>
+              <img class="w-full" src="./assets/img2.png" alt="">
+            </div>
+          </div>
+        </div>
+        <!-- second rows -->
+        <div>
+          <div class="lg:flex gap-5 sm:space-y-4 space-y-7">
+            <div class="card shadow-xl w-full lg:w-1/4 p-5">
+              <img class="w-full" src="./assets/img3.png" alt="">
+            </div>
+            <div class=" card shadow-xl w-full lg:w-3/4 p-5">
+              <div class="flex flex-col lg:flex-row gap-5 ">
+                <img src="./assets/img4.png" alt="">
+                <div class="flex flex-col justify-center space-y-3">
+                  <h2 class="text-[#494949] text-2xl font-extrabold">Commercial</h2>
+                  <p class="text-[#737373] text-base font-semibold">The barn house captivates with its blend of rustic
+                    charm
+                    and modern. The arn house captivates with blend of rustic charm and modern.</p>
+                  <button class="text-lg font-bold text-left">Read More <i
+                      class="fa-solid fa-arrow-right -rotate-45 p-2 bg-primary rounded-full"></i></button>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow-xl w-full lg:w-1/4 p-5">
+              <div class="">
+                <img class="w-full" src="./assets/img5.png" alt="">
+              </div>
+            </div>
+            <div class="card shadow-xl w-full lg:hidden p-5">
+              <div class="">
+                <img class="w-full" src="./assets/img3.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </section>
 
     <!-- Articles Section -->
-    <section class="my-2 bg-[#f4f4f4]">
-      <div class="container mx-auto">
+    <section class="bg-[#f4f4f4]">
+      <div class="container mx-auto pt-6 pb-4 mb-3 lg:pb-12">
         <div class="flex justify-center">
           <button
             class="btn text-center border-2 border-solid border-primary px-2 bg-buttonColor text-lg font-bold rounded-full"><i
@@ -244,7 +314,7 @@
             sophistication, featuring weathered wood, sleek metal accents.</p>
         </div>
 
-        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 p-5 pb-24">
+        <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 p-5">
           <!-- Card 1 -->
           <div class="md:flex gap-6 card shadow-xl p-5">
             <img src="./assets/article1.png" alt="">
@@ -315,8 +385,10 @@
       </div>
     </section>
 
+    <!-- extra section -->
+
     <!-- Contact Section -->
-    <section class="hero-pattern bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover ">
+    <section class="hero-pattern bg-[url('/assets/bg.jpg')] bg-no-repeat bg-cover">
       <div class="pt-8">
         <div class="flex justify-center">
           <button
